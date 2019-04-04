@@ -1,0 +1,7 @@
+○プログラム名：Loop10Times() /* 教科書 28ページ  繰り返し処理 */
+○整数型：LoopCount
+
+■ LoopCount：0, LoopCount ＜ 10,1
+｜●表示処理（LoopCount)	
+□ 
+
