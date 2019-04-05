@@ -1,0 +1,12 @@
+○プログラム名：EvenGokei() /* 教科書 32ページ  繰り返し */
+○整数型：Cnt,Total
+
+● Cnt ← 2
+● Total ← 0
+
+■ Cnt  ≦ 100
+｜●Total ← Total ＋ Cnt
+｜●Cnt  ← Cnt  ＋ 2
+□ 
+
+●表示処理(Total)
