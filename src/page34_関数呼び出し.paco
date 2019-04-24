@@ -1,0 +1,15 @@
+›ƒvƒƒOƒ‰ƒ€–¼FŠÖ”ŒÄ‚Ño‚µ
+›®”Œ^FRet
+
+œRet © Cmp(2,3)
+œ•\¦ˆ—(Ret)
+œRet © Cmp(2,6)
+œ•\¦ˆ—(Ret)
+
+
+›®”Œ^FCmp(®”Œ^Fa,®”Œ^Fb)
+£a „ b
+b œreturn(a)
+{|||||||||
+b œreturn(b)
+¥
