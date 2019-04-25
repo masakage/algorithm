@@ -1,19 +1,21 @@
-○プログラム名：関数呼び出し /* 教科書 35ページサンプル */
-○整数型：Max
+○プログラム名：関数呼び出し /* 教科書 35ページサンプル 桁数計算*/
+○整数型：Digit
 
-●Max　← DispMax(10,20,30)
-●表示処理(Max)
+●Digit　← GetDigit (1000)
+●表示処理(Digit)
 
 
-○整数型：DispMax(整数型：a,整数型：b,整数型：c)
-○整数型：Max
-▲a ＞ b
-｜ ●Max ← a
-＋－－－－－－－－－
-｜ ●Max ← b
+○整数型：GetDigit(整数型：Val)
+○整数型：Digit,Limit
+▲Val ＜ 0
+｜ ●Val ← Val × (-1)
 ▼
 
-▲Max ＜ c
-｜ ●Max ← c
-▼
-●return(Max)
+●Digit ← 1
+●Limit ← 10
+
+■Limit ≦ Val
+｜ ●Digit ← Digit ＋ 1
+｜ ●Limit ← Limit × 10
+□
+●return(Digit)
