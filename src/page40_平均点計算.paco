@@ -1,0 +1,25 @@
+○プログラム名：平均点 /* 教科書 40ページサンプル */
+○整数型：Ten[5]
+○整数型：Idx
+○整数型：Gokei
+○整数型：Heikin
+
+●Ten[0] ← 36
+●Ten[1] ← 80
+●Ten[2] ← 100
+●Ten[3] ← 92
+●Ten[4] ← 64
+
+●Gokei ← 0
+
+■Idx：0,Idx ＜ 5,1 
+｜  ●Gokei ← Gokei ＋ Ten[Idx]
+□
+
+●Heikin ← Gokei ÷ 5
+●表示処理（"合計")
+●表示処理(Gokei)
+●表示処理 ("平均")
+●表示処理(Heikin)
+
+
