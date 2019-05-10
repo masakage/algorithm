@@ -1,0 +1,21 @@
+○プログラム名：2次元配列行合計算出 /* 教科書 46ページサンプル */
+○整数型：T[3,5]
+○整数型：Line[3] /* 行の合計を代入する */
+○整数型：Gtotal
+○整数型：Lidx 
+○整数型：Ridx
+
+
+■Lidx：0,Lidx ＜ 3,1
+｜●Line[Lidx] ← 0
+｜■Ridx：0,Ridx ＜ 5,1
+｜｜  ●Line[Lidx] ← Line[Lidx] + T[Lidx,Ridx]
+｜□
+□
+
+●Gtotal ← 0
+
+■Lidx：0,Lidx ＜ 3,1
+｜●Gtotal ← Gtotal + Line[Lidx]
+□
+
