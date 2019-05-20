@@ -1,0 +1,26 @@
+○プログラム名：選択ソート /* 教科書 75ページサンプル */
+
+○整数型：SelectionSort1(整数型：T[],整数型：N)
+○整数型：Head
+○整数型：Idx
+○整数型：MinIdx
+○整数型：Work
+
+●Head ← 0
+
+■Head < N -1
+｜●MinIdx ←　Head
+｜●Idx ← Head ＋ 1
+｜■Idx < N
+｜｜▲T[MinIdx]>T[Idx]
+｜｜｜●MinIdx ← Idx
+｜｜▼
+｜｜●Idx ← Idx ＋ 1
+｜□
+｜▲Head ≠ MinIdx
+｜｜●Work ← T[Head]
+｜｜●T[Head] ← T[MinIdx]
+｜｜●T[MinIdx] ← Work
+｜▼
+｜●Head ← Head + 1
+□
