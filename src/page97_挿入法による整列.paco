@@ -1,0 +1,18 @@
+○プログラム名：挿入法による整列 /* 教科書 97ページサンプル */
+
+○整数型：InsertionSort1(整数型：T[],整数型：N)
+○整数型：Head
+○整数型：Idx
+○整数型：Work
+
+●Head ←　1
+■Head < N
+｜●Work ← T[Head]
+｜●Idx ←Head -1
+｜■Idx ≧ 0 and T[Idx] > Work
+｜｜●T[Idx+1] ← T[Idx]
+｜｜●Idx ← Idx - 1
+｜□
+｜●T[Idx+1] ← Work
+｜●Head ← Head - 1
+□
