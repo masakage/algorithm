@@ -5,7 +5,7 @@
 
 ■Lidx：0,Lidx ＜ 9,1
 ｜■Cidx：0,Cidx ＜ 9,1
-｜｜  ●Kuku[Lidx,Cidx] ← (Lidx + 1)×(Cidx + 1)
+｜｜  ●Kuku[Lidx][Cidx] ← (Lidx + 1)×(Cidx + 1)
 ｜□
 □
 
