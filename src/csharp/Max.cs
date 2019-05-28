@@ -1,6 +1,4 @@
-﻿//Page52 最大値を表示する
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,17 +11,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            var T = new int[5];
+            var T = new int[] { 1, 3, 3, 6, 4 };
             int Idx = 0;
             int Max = 0;
 
-            T[0] = 1;
-            T[1] = 3;
-            T[2] = 3;
-            T[3] = 6;
-            T[4] = 4;
-
-            Max = T[1];
+            Max = T[0];
 
             for (Idx = 0; Idx < 5; Idx++)
             {
