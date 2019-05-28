@@ -1,9 +1,0 @@
-○プログラム名：Loop10Times() /* 教科書 29ページ  繰り返し処理 */
-○整数型：Cnt,Total
-● Total ← 0
-
-■ Cnt：0, Cnt ＜ 101,1
-｜●Total ← Total ＋ Cnt
-□ 
-
-●表示処理(Total)
