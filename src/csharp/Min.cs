@@ -19,7 +19,7 @@ namespace ConsoleApp1
 
             for (Idx = 0; Idx < 5; Idx++)
             {
-                while (Min > T[Idx])
+                if (Min > T[Idx])
                 {
                     Min = T[Idx];
                 }
