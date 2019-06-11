@@ -12,9 +12,9 @@
 ●Max ← T[1] 
 
 ■Idx：1,Idx<6,1
-｜■Max ＜ T[Idx]
+｜▲Max ＜ T[Idx]
 ｜｜  ●Max ← T[Idx]
-｜□
+｜▼
 □
 
 ●表示処理(Max)
