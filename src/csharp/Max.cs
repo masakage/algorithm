@@ -19,7 +19,7 @@ namespace ConsoleApp1
 
             for (Idx = 0; Idx < 5; Idx++)
             {
-                while (Max < T[Idx])
+                if (Max < T[Idx])
                 {
                     Max = T[Idx];
                 }
